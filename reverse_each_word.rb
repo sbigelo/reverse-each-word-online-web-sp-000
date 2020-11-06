@@ -7,9 +7,10 @@ require 'pry'
 # "Hello there, and how are you?"
 
 def reverse_each_word(word)
-  word.split.collect  {|key| key.reverse}.join(" ")
+  word.split.collect do |key| 
+    key.reverse.join(" ")
     
   
-  
+end
   
 end
